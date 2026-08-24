@@ -66,7 +66,6 @@ Full detail in [the insight write-up](.Dashboard/insights.md).
 
 ## Dashboard Preview
 
-*(embed dashboard screenshots here)*
 <img width="1288" height="727" alt="image" src="https://github.com/user-attachments/assets/cbfed50b-5527-410a-ab1c-b96b5f2f23e3" />
 <img width="1220" height="639" alt="image" src="https://github.com/user-attachments/assets/9719b564-3ab5-445c-b90d-748229dfb6fe" />
 
