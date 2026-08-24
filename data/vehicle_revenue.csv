@@ -1,0 +1,8 @@
+Vehicle_Type,total_rides,total_revenue,avg_fare
+"Prime Sedan",9379,5224050.00,556.99
+eBike,9180,5054662.00,550.62
+Auto,9167,5051846.00,551.09
+"Prime Plus",9075,5015165.00,552.64
+Bike,9134,4971968.00,544.34
+Mini,9036,4885961.00,540.72
+"Prime SUV",8996,4876815.00,542.11
