@@ -2,7 +2,7 @@
 
 A self-directed portfolio project analyzing 50,000 ride-booking records from the Ola Ride Booking dataset, built to demonstrate the skills required for a Data Analyst (E-Hailing) role — SQL querying, data cleaning, dashboarding, and translating data into business decisions.
 
-🎥 **Video walkthrough:** [link coming soon]
+🎥 **Video walkthrough:** [Ola Rides Video.mp4](./assets/Ola%20Rides%20Video.mp4)
 📄 **Insight write-up:** [Ola_Rides_Insight_Summary.md](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/insights.md)
 
 ---
