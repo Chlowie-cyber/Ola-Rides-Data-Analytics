@@ -76,4 +76,4 @@ Full detail in [the insight write-up](https://github.com/Chlowie-cyber/Ola-Rides
 
 This project was built to apply for the Data Analyst (E-Hailing) role at Bro Cabs, following guidance from the hiring team that personal projects and evidence of applied skills are welcome from candidates without formal industry experience.
 
-**Contact:** Lehlogonolo Mpye
+**Contact:** [Lehlogonolo Mpye](mailto:lehlogonolo189@gmail.com)
