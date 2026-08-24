@@ -28,7 +28,7 @@ A self-directed portfolio project analyzing 50,000 ride-booking records from the
 ## Repository Structure
 
 ```
-BroCabs_DataAnalyst_Project/
+Ola Rides Analytics Project/
 ├── data/                    # Raw and cleaned CSV extracts
 ├── sql/                     # SQL analysis scripts
 │   └── 01_ola_analysis.sql
