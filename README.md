@@ -3,7 +3,7 @@
 A self-directed portfolio project analyzing 50,000 ride-booking records from the Ola Ride Booking dataset, built to demonstrate the skills required for a Data Analyst (E-Hailing) role — SQL querying, data cleaning, dashboarding, and translating data into business decisions.
 
 🎥 **Video walkthrough:** [link coming soon]
-📄 **Insight write-up:** [Ola_Rides_Insight_Summary.md](.Dashboard/insights.md)
+📄 **Insight write-up:** [Ola_Rides_Insight_Summary.md](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/insights.md)
 
 ---
 
@@ -60,7 +60,7 @@ BroCabs_DataAnalyst_Project/
 6. **Cash remains the dominant payment method (55%)**, even ahead of UPI (40%) — relevant for driver cash-handling processes.
 7. **Service quality is strong** — average driver and customer ratings both sit around 4/5.
 
-Full detail in [the insight write-up](.Dashboard/insights.md).
+Full detail in [the insight write-up](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/insights.md).
 
 ---
 
