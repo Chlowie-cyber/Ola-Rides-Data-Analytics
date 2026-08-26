@@ -46,6 +46,9 @@ Ola-Rides-Data-Analytics/
 │   ├── trust_safety_analysis.py     # Fraud / anomaly detection
 │   └── cancellation_risk_prediction.py  # ML cancellation risk model
 ├── sql/
+Ola Rides Analytics Project/
+├── data/                    # Raw and cleaned CSV extracts
+├── sql/                     # SQL analysis scripts
 │   └── 01_ola_analysis.sql
 └── README.md
 ```
