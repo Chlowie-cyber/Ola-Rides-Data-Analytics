@@ -4,7 +4,7 @@ A self-directed portfolio project analyzing 103,024 ride-booking records from th
 
 📄 **Insight write-up:** [Insight Summary.md](./Dashboard/Insight%20Summary.md)
 🛡️ **Trust & Safety analysis:** [Trust_and_Safety_Notes.md](./Dashboard/Trust_and_Safety_Notes.md)
-🤖 **Cancellation risk model:** [Cancellation_Risk_Prediction_Notes.md](./Dashboard/Cancellation_Risk_Prediction_Notes.md)
+🤖 **Cancellation risk model:** [Cancellation_Risk_Prediction_Notes.md](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/Cancellation%20Risk%20Predication%20Notes.md)
 🎥 **Video walkthrough:** included in `assets/Ola Rides Video.mp4`
 
 ---
