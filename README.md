@@ -76,7 +76,7 @@ Ola Rides Analytics Project/
 9. **966 bookings (0.9%) show fare-per-km outliers** — flagged for review as potential data errors or pricing anomalies.
 10. **Vehicle Type and Hour of Day are the strongest predictors of cancellation risk** (decision tree model, 68% recall on cancellations) — Day of Week has zero predictive weight, reinforcing that cancellations aren't tied to specific days.
 
-Full detail in the [Insight Summary](./Dashboard/Insight%20Summary.md), [Trust & Safety Notes](./Dashboard/Trust_and_Safety_Notes.md), and [Cancellation Risk Prediction Notes](./Dashboard/Cancellation_Risk_Prediction_Notes.md).
+Full detail in the [Insight Summary](./Dashboard/Insight%20Summary.md), [Trust & Safety Notes](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/Trust%20and%20Safety%20Notes.md), and [Cancellation Risk Prediction Notes](./Dashboard/Cancellation_Risk_Prediction_Notes.md).
 
 ---
 
