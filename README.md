@@ -1,9 +1,11 @@
 # Ola Rides — E-Hailing Data Analyst Portfolio Project
 
-A self-directed portfolio project analyzing 50,000 ride-booking records from the Ola Ride Booking dataset, built to demonstrate the skills required for a Data Analyst (E-Hailing) role — SQL querying, data cleaning, dashboarding, and translating data into business decisions.
+A self-directed portfolio project analyzing 103,024 ride-booking records from the Ola Ride Booking dataset, built to demonstrate the skills required for a Data Analyst (E-Hailing) role — SQL querying, data cleaning, dashboarding, machine learning, and translating data into business decisions.
 
-🎥 **Video walkthrough:** [Ola Rides Video.mp4](./assets/Ola%20Rides%20Video.mp4)
-📄 **Insight write-up:** [Ola_Rides_Insight_Summary.md](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/insights.md)
+📄 **Insight write-up:** [Insight Summary.md](./Dashboard/Insight%20Summary.md)
+🛡️ **Trust & Safety analysis:** [Trust_and_Safety_Notes.md](./Dashboard/Trust_and_Safety_Notes.md)
+🤖 **Cancellation risk model:** [Cancellation_Risk_Prediction_Notes.md](./Dashboard/Cancellation_Risk_Prediction_Notes.md)
+🎥 **Video walkthrough:** included in `assets/Ola Rides Video.mp4`
 
 ---
 
@@ -13,9 +15,11 @@ A self-directed portfolio project analyzing 50,000 ride-booking records from the
 |---|---|
 | Data cleaning & preparation | Excel, Power Query, Python (pandas) |
 | Database querying | MySQL |
-| Exploratory data analysis | Python (Jupyter) |
+| Exploratory data analysis | Python (pandas) |
+| Machine learning | Python (scikit-learn) — decision tree classifier |
+| Anomaly / fraud detection | Python (pandas) — rule-based flagging |
 | Dashboarding | Power BI (2 pages) |
-| Reporting | Markdown write-up |
+| Reporting | Markdown write-ups |
 
 **Headline results:**
 - 103K total bookings analyzed
@@ -28,15 +32,21 @@ A self-directed portfolio project analyzing 50,000 ride-booking records from the
 ## Repository Structure
 
 ```
-BroCabs_DataAnalyst_Project/
-├── data/                    # Raw and cleaned CSV extracts
-├── sql/                     # SQL analysis scripts
+Ola-Rides-Data-Analytics/
+├── Dashboard/
+│   ├── Insight Summary.md
+│   ├── Trust_and_Safety_Notes.md
+│   ├── Cancellation_Risk_Prediction_Notes.md
+│   └── Ola Rides Dashboard.pbix
+├── assets/                          # Exported chart images + video walkthrough
+├── data/                            # Raw and cleaned CSV extracts
+├── excel/                           # Data cleaning workbook
+├── python/
+│   ├── eda_analysis.py
+│   ├── trust_safety_analysis.py     # Fraud / anomaly detection
+│   └── cancellation_risk_prediction.py  # ML cancellation risk model
+├── sql/
 │   └── 01_ola_analysis.sql
-├── python/                  # Exploratory data analysis
-│   └── eda_analysis.py
-├── assets/                  # Exported chart images
-├── Ola Rides Dashboard.pbix # Power BI dashboard file (2 pages)
-├── Ola_Rides_Insight_Summary.md
 └── README.md
 ```
 
@@ -59,8 +69,11 @@ BroCabs_DataAnalyst_Project/
 5. **Booking demand is concentrated in a small number of pickup zones**, suggesting targeted driver positioning could improve completion rate and driver earnings together.
 6. **Cash remains the dominant payment method (55%)**, even ahead of UPI (40%) — relevant for driver cash-handling processes.
 7. **Service quality is strong** — average driver and customer ratings both sit around 4/5.
+8. **No evidence of abusive rapid-cancellation behavior** — a rule-based fraud screen found zero customers with 3+ same-day cancellations across all 103K bookings.
+9. **966 bookings (0.9%) show fare-per-km outliers** — flagged for review as potential data errors or pricing anomalies.
+10. **Vehicle Type and Hour of Day are the strongest predictors of cancellation risk** (decision tree model, 68% recall on cancellations) — Day of Week has zero predictive weight, reinforcing that cancellations aren't tied to specific days.
 
-Full detail in [the insight write-up](https://github.com/Chlowie-cyber/Ola-Rides-Data-Analytics/blob/main/Dashboard/insights.md).
+Full detail in the [Insight Summary](./Dashboard/Insight%20Summary.md), [Trust & Safety Notes](./Dashboard/Trust_and_Safety_Notes.md), and [Cancellation Risk Prediction Notes](./Dashboard/Cancellation_Risk_Prediction_Notes.md).
 
 ---
 
@@ -69,11 +82,10 @@ Full detail in [the insight write-up](https://github.com/Chlowie-cyber/Ola-Rides
 <img width="1288" height="727" alt="image" src="https://github.com/user-attachments/assets/cbfed50b-5527-410a-ab1c-b96b5f2f23e3" />
 <img width="1220" height="639" alt="image" src="https://github.com/user-attachments/assets/9719b564-3ab5-445c-b90d-748229dfb6fe" />
 
-
 ---
 
 ## About This Project
 
-This project was built to apply for the Data Analyst (E-Hailing) role at Bro Cabs, following guidance from the hiring team that personal projects and evidence of applied skills are welcome from candidates without formal industry experience.
+This project was built to apply for the Data Analyst (E-Hailing) role at Bro Cabs, following guidance from the hiring team that personal projects and evidence of applied skills are welcome from candidates without formal industry experience. It was later extended with fraud/anomaly detection and a cancellation risk prediction model to demonstrate the intersection of data analysis and security-minded thinking.
 
-**Contact:** Lehlogonolo Mpye
+**Contact:** [Lehlogonolo Mpye](mailto:lehlogonolo189@gmail.com)
